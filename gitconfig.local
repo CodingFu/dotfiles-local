@@ -1,3 +1,5 @@
 [user]
   name = Seva Rybakov
   email = codingfu@gmail.com
+[init]
+  templatedir = ~/.git_template
