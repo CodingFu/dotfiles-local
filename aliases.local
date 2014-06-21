@@ -1,2 +1,3 @@
 alias gst='echo use g'
 alias gps='git push'
+alias gco='git checkout'
