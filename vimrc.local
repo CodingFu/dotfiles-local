@@ -1,0 +1,8 @@
+set relativenumber
+set number
+
+" C-S is save
+" Note that remapping C-s requires flow control to be disabled
+" (e.g. in .bashrc or .zshrc)
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
