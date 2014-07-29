@@ -6,3 +6,6 @@ set number
 " (e.g. in .bashrc or .zshrc)
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
+
+" Ack.vim using the_silver_searcher
+let g:ackprg = 'ag --nogroup --nocolor --column'
