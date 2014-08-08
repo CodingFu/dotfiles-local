@@ -4,3 +4,5 @@ CDPATH="$HOME:$HOME/src:$HOME/src/private:$HOME/src/play"
 
 stty stop undef
 stty start undef
+
+eval "$(direnv hook zsh)"
