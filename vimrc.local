@@ -6,3 +6,5 @@ set number
 " (e.g. in .bashrc or .zshrc)
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
+
+let g:ackprg = 'ag --nogroup --nocolor --column'

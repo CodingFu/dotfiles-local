@@ -1,2 +1,4 @@
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-rvm'

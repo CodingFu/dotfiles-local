@@ -1,3 +1,4 @@
-alias gst='echo use g'
+alias gst='git status'
 alias gps='git push'
 alias gco='git checkout'
+alias gcp='git cherry-pick'
