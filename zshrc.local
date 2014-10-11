@@ -2,6 +2,7 @@ PATH=/usr/local/bin:$PATH
 
 CDPATH="$HOME:$HOME/src:$HOME/src/private:$HOME/src/play"
 
+stty -ixoff
 stty stop undef
 stty start undef
 
