@@ -8,6 +8,8 @@ Bundle 'mileszs/ack.vim'
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
+Bundle 'whatyouhide/vim-gotham'
+Bundle 'bling/vim-airline'
 
 " Optional:
 Bundle "honza/vim-snippets"

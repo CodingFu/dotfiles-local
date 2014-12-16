@@ -9,3 +9,6 @@ imap <C-s> <esc>:w<CR>
 
 " Ack.vim using the_silver_searcher
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+colorscheme gotham256
+let g:airline_theme = 'gotham256'
