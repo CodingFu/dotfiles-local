@@ -12,3 +12,7 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 colorscheme gotham256
 let g:airline_theme = 'gotham256'
+
+set ttyfast
+set lazyredraw
+let loaded_matchparen = 1
