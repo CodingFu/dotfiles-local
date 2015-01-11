@@ -16,3 +16,5 @@ let g:airline_theme = 'gotham256'
 set ttyfast
 set lazyredraw
 let loaded_matchparen = 1
+
+let g:syntastic_ruby_checkers = ['mri']
