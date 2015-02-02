@@ -10,6 +10,9 @@ Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle 'whatyouhide/vim-gotham'
 Bundle 'bling/vim-airline'
+Bundle 'altercation/vim-colors-solarized.git'
 
 " Optional:
 Bundle "honza/vim-snippets"
+Bundle "jnurmine/Zenburn"
+Bundle "airblade/vim-gitgutter"
