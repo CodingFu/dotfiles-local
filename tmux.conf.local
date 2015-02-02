@@ -12,8 +12,17 @@ bind-key - split-window
 # increase scroll-back history
 set -g history-limit 5000
 
-# Vi keybindings
-set-window-option -g mode-keys vi
+# Terminal emulator window title
+setw -g automatic-rename on
+set-option -g set-titles on
+set-option -g set-titles-string 'tmux: #W'
+
+set-option -g status-justify centre
+set-option -g status-bg "black"
+set-option -g status-fg white
+set-option -g status-interval 5
+
+
 
 # Vimlike copy mode.
 unbind [

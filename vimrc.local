@@ -7,8 +7,17 @@ set number
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 
+" let g:solarized_termcolors=256
+set background=light
+
 " Ack.vim using the_silver_searcher
 let g:ackprg = 'ag --nogroup --nocolor --column'
+colorscheme zenburn
+
+set ttyfast
+set lazyredraw
+let loaded_matchparen = 1
 
 " colorscheme gotham256
 " let g:airline_theme = 'gotham256'
+let g:syntastic_ruby_checkers = ['mri']
